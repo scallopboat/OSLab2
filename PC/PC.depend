@@ -1,7 +1,16 @@
 # depslib dependency file v1.0
-1461902035 source:c:\users\scallopboat\oslab2\pc\sol1.c
+1461909663 source:c:\users\scallopboat\oslab2\pc\sol1.c
 	<stdlib.h>
 	<pthread.h>
 	<stdio.h>
 	<time.h>
+	<unistd.h>
+
+1461916408 source:c:\users\scallopboat\oslab2\pc\sol2.c
+	<stdlib.h>
+	<pthread.h>
+	<stdio.h>
+	<time.h>
+	<unistd.h>
+	<semaphore.h>
 

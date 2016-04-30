@@ -14,3 +14,11 @@
 	<unistd.h>
 	<semaphore.h>
 
+1461975367 source:/home/scallopboat/OSLab2/PC/sol2.c
+	<stdlib.h>
+	<pthread.h>
+	<stdio.h>
+	<time.h>
+	<unistd.h>
+	<semaphore.h>
+

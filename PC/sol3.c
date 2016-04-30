@@ -1,3 +1,4 @@
+
 /*
     Author: Chris Meyer
     Assignment: Lab 2 Solution 1
@@ -42,13 +43,13 @@ static void putItemIntoBuffer(int item)
 
 static int removeItemFromBuffer()
 {
-    sem_wait(&mutex);
+    //sem_wait(&mutex);
 	int item = buffer[removeIt];
 	printf("\t\t\tRemoved from buffer: %d \n", item);
 	removed++;
 	buffer[removeIt] = 0;
 	removeIt = (removeIt + 1) % BUFFER_SIZE;
-	sem_post(&mutex);
+	//sem_post(&mutex);
 	return (int) item;
 }
 
@@ -60,7 +61,7 @@ static void * producer(void* ptr){
 
     while(1)
     {
-        if(proLooped == LOOPX)
+        if(proLooped >= LOOPX)
         {
             break;
         }
@@ -83,7 +84,7 @@ static void * consumer(void* ptr) {
 
     while(1)
     {
-        if(conLooped == LOOPX)
+        if(conLooped >= LOOPX)
         {
             break;
         }
@@ -115,25 +116,25 @@ int main(int argc, char **argv) {
 
 	// Makin threads
 	// Producers
-	pthread_t consumer1, producer1;//, consumer2,consumer3, producer2, producer3, producer4;
+	pthread_t consumer1, producer1, consumer2,consumer3, producer2, producer3, producer4;
 	pthread_create( &producer1, NULL, producer, NULL);
-	//pthread_create( &producer2, NULL, producer, NULL);
-	//pthread_create( &producer3, NULL, producer, NULL);
-	//pthread_create( &producer4, NULL, producer, NULL);
+	pthread_create( &producer2, NULL, producer, NULL);
+	pthread_create( &producer3, NULL, producer, NULL);
+	pthread_create( &producer4, NULL, producer, NULL);
 
 	// Consumers
 	pthread_create( &consumer1, NULL, consumer, NULL);
-	//pthread_create( &consumer2, NULL, consumer, NULL);
-	//pthread_create( &consumer3, NULL, consumer, NULL);
+	pthread_create( &consumer2, NULL, consumer, NULL);
+	pthread_create( &consumer3, NULL, consumer, NULL);
 
 	// Waiting for stuff
 	pthread_join(consumer1, NULL);
-	//pthread_join(consumer2, NULL);
-	//pthread_join(consumer3, NULL);
+	pthread_join(consumer2, NULL);
+	pthread_join(consumer3, NULL);
 	pthread_join(producer1, NULL);
-	//pthread_join(producer2, NULL);
-	//pthread_join(producer3, NULL);
-	//pthread_join(producer4, NULL);
+	pthread_join(producer2, NULL);
+	pthread_join(producer3, NULL);
+	pthread_join(producer4, NULL);
 
 	// Everything finished, so blat out the buffer
 	int i;

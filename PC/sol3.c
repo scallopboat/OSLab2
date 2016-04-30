@@ -33,11 +33,13 @@ int addIt = 0;
 
 static void putItemIntoBuffer(int item)
 {
-    sem_wait(&mutex);
+
 	printf("Added to buffer: %d \n", item);
 	added++;
+    sem_wait(&mutex);
     buffer[addIt] = item;
 	addIt = (addIt + 1) % BUFFER_SIZE;
+
 	sem_post(&mutex);
 }
 
@@ -59,18 +61,17 @@ static int removeItemFromBuffer()
  */
 static void * producer(void* ptr){
 
-    while(1)
+    while(proLooped < LOOPX)
     {
-        if(proLooped >= LOOPX)
-        {
-            break;
-        }
+        //sem_wait(&mutex);
         sem_wait(&emptyCount);
+
         putItemIntoBuffer(rand() % 100);
         proLooped++;
+
+
         sem_post(&fillCount);
-
-
+        //sem_post(&mutex);
     }
 
 	return (void*) ptr;
@@ -82,18 +83,12 @@ static void * producer(void* ptr){
  */
 static void * consumer(void* ptr) {
 
-    while(1)
+    while(conLooped < LOOPX)
     {
-        if(conLooped >= LOOPX)
-        {
-            break;
-        }
         sem_wait(&fillCount);
         removeItemFromBuffer();
         conLooped++;
         sem_post(&emptyCount);
-
-
     }
 
 	return (void*) ptr;

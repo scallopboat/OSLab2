@@ -1,0 +1,234 @@
+scallopboat@ubuntu:~/workspace/codeblocks/OSLab2/bin/Release$ ./OSLab2
+Added to buffer: 37 
+Added to buffer: 98 
+Added to buffer: 56 
+Added to buffer: 33 
+Added to buffer: 34 
+Added to buffer: 5 
+Added to buffer: 10 
+Added to buffer: 22 
+Added to buffer: 56 
+Added to buffer: 43 
+Added to buffer: 24 
+Added to buffer: 31 
+Added to buffer: 56 
+Added to buffer: 72 
+Added to buffer: 22 
+Added to buffer: 12 
+Added to buffer: 48 
+Added to buffer: 30 
+Added to buffer: 67 
+Added to buffer: 94 
+Added to buffer: 95 
+Added to buffer: 12 
+Added to buffer: 45 
+Added to buffer: 43 
+Added to buffer: 62 
+			Removed from buffer: 37 
+			Removed from buffer: 98 
+			Removed from buffer: 56 
+			Removed from buffer: 33 
+			Removed from buffer: 34 
+			Removed from buffer: 5 
+			Removed from buffer: 10 
+			Removed from buffer: 22 
+			Removed from buffer: 56 
+			Removed from buffer: 43 
+			Removed from buffer: 24 
+			Removed from buffer: 31 
+			Removed from buffer: 56 
+			Removed from buffer: 72 
+			Removed from buffer: 22 
+			Removed from buffer: 12 
+			Removed from buffer: 48 
+			Removed from buffer: 30 
+			Removed from buffer: 67 
+			Removed from buffer: 94 
+			Removed from buffer: 95 
+			Removed from buffer: 12 
+			Removed from buffer: 45 
+			Removed from buffer: 37 
+Added to buffer: 47 
+Added to buffer: 27 
+Added to buffer: 20 
+Added to buffer: 49 
+Added to buffer: 94 
+Added to buffer: 69 
+Added to buffer: 86 
+Added to buffer: 44 
+Added to buffer: 25 
+Added to buffer: 19 
+Added to buffer: 79 
+Added to buffer: 82 
+Added to buffer: 29 
+Added to buffer: 53 
+Added to buffer: 39 
+Added to buffer: 49 
+Added to buffer: 63 
+Added to buffer: 27 
+Added to buffer: 5 
+Added to buffer: 87 
+Added to buffer: 1 
+Added to buffer: 69 
+Added to buffer: 36 
+			Removed from buffer: 62 
+			Removed from buffer: 47 
+			Removed from buffer: 27 
+			Removed from buffer: 20 
+			Removed from buffer: 49 
+			Removed from buffer: 94 
+			Removed from buffer: 69 
+			Removed from buffer: 86 
+			Removed from buffer: 44 
+			Removed from buffer: 25 
+			Removed from buffer: 19 
+			Removed from buffer: 79 
+			Removed from buffer: 82 
+			Removed from buffer: 29 
+			Removed from buffer: 53 
+			Removed from buffer: 39 
+			Removed from buffer: 49 
+			Removed from buffer: 63 
+			Removed from buffer: 27 
+			Removed from buffer: 5 
+			Removed from buffer: 87 
+			Removed from buffer: 1 
+			Removed from buffer: 37 
+Added to buffer: 83 
+Added to buffer: 82 
+Added to buffer: 79 
+Added to buffer: 1 
+Added to buffer: 27 
+Added to buffer: 22 
+Added to buffer: 48 
+Added to buffer: 7 
+Added to buffer: 42 
+Added to buffer: 98 
+Added to buffer: 1 
+Added to buffer: 63 
+Added to buffer: 36 
+Added to buffer: 46 
+Added to buffer: 40 
+Added to buffer: 56 
+Added to buffer: 77 
+Added to buffer: 23 
+Added to buffer: 37 
+Added to buffer: 82 
+Added to buffer: 14 
+Added to buffer: 33 
+Added to buffer: 37 
+Added to buffer: 44 
+			Removed from buffer: 36 
+			Removed from buffer: 83 
+			Removed from buffer: 82 
+			Removed from buffer: 79 
+			Removed from buffer: 1 
+			Removed from buffer: 27 
+			Removed from buffer: 22 
+			Removed from buffer: 48 
+			Removed from buffer: 7 
+			Removed from buffer: 42 
+			Removed from buffer: 98 
+			Removed from buffer: 1 
+			Removed from buffer: 63 
+			Removed from buffer: 36 
+			Removed from buffer: 46 
+			Removed from buffer: 40 
+			Removed from buffer: 56 
+			Removed from buffer: 77 
+			Removed from buffer: 23 
+			Removed from buffer: 37 
+			Removed from buffer: 82 
+			Removed from buffer: 14 
+			Removed from buffer: 33 
+Added to buffer: 12 
+Added to buffer: 88 
+Added to buffer: 16 
+Added to buffer: 14 
+Added to buffer: 10 
+Added to buffer: 4 
+Added to buffer: 97 
+Added to buffer: 99 
+Added to buffer: 86 
+Added to buffer: 76 
+Added to buffer: 0 
+Added to buffer: 66 
+Added to buffer: 98 
+Added to buffer: 48 
+Added to buffer: 73 
+Added to buffer: 93 
+Added to buffer: 98 
+Added to buffer: 26 
+Added to buffer: 56 
+Added to buffer: 35 
+Added to buffer: 24 
+Added to buffer: 31 
+Added to buffer: 29 
+			Removed from buffer: 62 
+			Removed from buffer: 44 
+			Removed from buffer: 12 
+			Removed from buffer: 88 
+			Removed from buffer: 16 
+			Removed from buffer: 14 
+			Removed from buffer: 10 
+			Removed from buffer: 4 
+			Removed from buffer: 97 
+			Removed from buffer: 99 
+			Removed from buffer: 86 
+			Removed from buffer: 76 
+			Removed from buffer: 0 
+			Removed from buffer: 66 
+			Removed from buffer: 98 
+			Removed from buffer: 48 
+			Removed from buffer: 73 
+			Removed from buffer: 93 
+			Removed from buffer: 98 
+			Removed from buffer: 26 
+			Removed from buffer: 56 
+			Removed from buffer: 35 
+			Removed from buffer: 24 
+			Removed from buffer: 31 
+			Removed from buffer: 36 
+Added to buffer: 97 
+Added to buffer: 43 
+Added to buffer: 1 
+Added to buffer: 32 
+Added to buffer: 84 
+Added to buffer: 72 
+			Removed from buffer: 97 
+			Removed from buffer: 43 
+			Removed from buffer: 1 
+			Removed from buffer: 32 
+			Removed from buffer: 84 
+			Removed from buffer: 97 
+Added to buffer: 38 
+			Removed from buffer: 38 
+In buffer:
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+Loops:  Producer = 102, Consumer = 102
+Added: 102  Removed: 102
+
